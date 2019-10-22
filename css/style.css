@@ -1,6 +1,83 @@
-/* 
+
     GLOBAL
     TYPOGRAPHY
     NAVIGATION
-*/
+
+    html{
+        height: 100%;
+    }
+    
+    body {
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin: 0;
+    }
+        
+    section {
+        color: black;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        
+    }
+    
+    #one, #two, #three {
+        width: 500px;
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    /* section p {
+        display: none;
+    
+    }  */
+    
+    section:hover {
+        background-color: black;
+        color: antiquewhite;
+       
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    section:hover p {
+        display: block;
+        visibility: visible;
+    }
+
+ 
+    
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+        transition: transform 4s ease-in-out;
+     }
+     
+     h1 div {
+        height: 0;
+        width: 0;
+        transition: all 4s ease-in-out;
+     }
+     
+     h1:hover {
+        color: coral;
+        transform: rotate(-360deg);
+       
+     }
+      
 
